@@ -1,0 +1,108 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .header-container {
+    width:100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(209, 21, 21);
+  }
+  .left-header{
+    position:absolute;
+    left:10px;
+  }
+  .right-header{
+    position:absolute;
+    right:10px;
+    margin-top: 25px;
+  }
+  
+  .user-section {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  
+  .user-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  
+  .user-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-dropdown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .user-dropdown p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .logout-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .logout-btn:hover {
+    background-color: darkred;
+  }
+  
+  .auth-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .auth-buttons a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .auth-buttons button:first-child {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons button:last-child {
+    background-color: #ffc107;
+    color: black;
+    border-radius: 5px;
+  }
+  
